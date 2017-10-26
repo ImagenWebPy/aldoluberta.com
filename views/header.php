@@ -84,21 +84,6 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="header-user-links">
-                                            <ul class="mega-menu">
-                                                <li class="menu-item has-sub narrow">
-                                                    <a href="#" class="icon-wrap"><i class="icon-user"></i><span> My Account</span></a>
-                                                    <div class="popup">
-                                                        <div class="inner">
-                                                            <ul class="sub-menu">
-                                                                <li class="menu-item"><a href="#">My Account</a></li>
-                                                                <li class="menu-item"><a href="#">Log Out</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
                                     </div>
                                     <div class="header-row">
                                         <div class="header-nav">
@@ -116,75 +101,11 @@
                                             </div>
                                             <div class="header-menu collapse">
                                                 <ul class="mega-menu menu-with-symbol">
-                                                    <li class="menu-item active narrow">
-                                                        <a href="#" title="Home">Home</a>
-                                                        <div class="popup">
-                                                            <div class="inner">
-                                                                <ul class="sub-menu">
-                                                                    <li class="menu-item"><a href="index-2.html">Home Version 1</a></li>
-                                                                    <li class="menu-item"><a href="index-02.html">Home Version 2</a></li>
-                                                                    <li class="menu-item"><a href="index-03.html">Home Version 3</a></li>
-                                                                    <li class="menu-item"><a href="index-04.html">Home Version 4</a></li>
-                                                                    <li class="menu-item"><a href="index-05.html">Home Version 5</a></li>
-                                                                    <li class="menu-item"><a href="index-06.html">Home Version 6</a></li>
-                                                                    <li class="menu-item"><a href="index-07.html">Home Version 7</a></li>
-                                                                    <li class="menu-item"><a href="index-08.html">Home Version 8</a></li>
-                                                                    <li class="menu-item"><a href="index-09.html">Home Version 9</a></li>
-                                                                    <li class="menu-item"><a href="index-10.html">Home Version 10</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="menu-item narrow">
-                                                        <a href="#" title="Post">Post</a>
-                                                        <div class="popup">
-                                                            <div class="inner">
-                                                                <ul class="sub-menu">
-                                                                    <li class="menu-item"><a href="post.html">Post Style 1</a></li>
-                                                                    <li class="menu-item"><a href="post-02.html">Post Style 2</a></li>
-                                                                    <li class="menu-item"><a href="post-03.html">Post Style 3</a></li>
-                                                                    <li class="menu-item"><a href="post-audio.html">Post Audio</a></li>
-                                                                    <li class="menu-item"><a href="post-video.html">Post Video</a></li>
-                                                                    <li class="menu-item"><a href="post-quote.html">Post Quote</a></li>
-                                                                    <li class="menu-item"><a href="post-gallery.html">Post Gallery</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="menu-item narrow">
-                                                        <a href="#" title="Category">Category</a>
-                                                        <div class="popup">
-                                                            <div class="inner">
-                                                                <ul class="sub-menu">
-                                                                    <li class="menu-item"><a href="author.html">Author Style 1</a></li>
-                                                                    <li class="menu-item"><a href="author-02.html">Author Style 2</a></li>
-                                                                    <li class="menu-item"><a href="category.html">Category 1</a></li>
-                                                                    <li class="menu-item"><a href="category-02.html">Category 2</a></li>
-                                                                    <li class="menu-item"><a href="category-03.html">Category 3</a></li>
-                                                                    <li class="menu-item"><a href="category-04.html">Category 4</a></li>
-                                                                    <li class="menu-item"><a href="category-05.html">Category 5</a></li>
-                                                                    <li class="menu-item"><a href="category-06.html">Category 6</a></li>
-                                                                    <li class="menu-item"><a href="category-07.html">Category 7</a></li>
-                                                                    <li class="menu-item"><a href="category-08.html">Category 8</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="menu-item narrow">
-                                                        <a href="#" title="Pages">Pages</a>
-                                                        <div class="popup">
-                                                            <div class="inner">
-                                                                <ul class="sub-menu">
-                                                                    <li class="menu-item"><a href="404.html">404 Page</a></li>
-                                                                    <li class="menu-item"><a href="search-found.html">Search Found</a></li>
-                                                                    <li class="menu-item"><a href="search-not-found.html">Search Not Found</a></li>
-                                                                    <li class="menu-item"><a href="footer-styles.html">Footer Styles</a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="menu-item"><a href="elements.html" title="Elements">Elements</a></li>
-                                                    <li class="menu-item"><a href="contact-us.html" title="Contact">Contact</a></li>
+                                                    <li class="menu-item active"><a href="<?= URL; ?>" title="Inicio">Inicio</a></li>
+                                                    <li class="menu-item"><a href="<?= URL; ?>acerca/" title="Un poco de mi">Un poco de mí</a></li>
+                                                    <li class="menu-item"><a href="<?= URL; ?>post/" title="Publicaciones">Publicaciones</a></li>
+                                                    <li class="menu-item"><a href="<?= URL; ?>galeria/" title="Galería">Galería</a></li>
+                                                    <li class="menu-item"><a href="<?= URL; ?>contacto/" title="Contacto">Contacto</a></li>
                                                 </ul>
                                             </div>
                                         </div>

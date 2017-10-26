@@ -1,171 +1,46 @@
-<div class="page-banner m-t-none">
-    <div class="slider-container rev_slider_wrapper">
-        <div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 650, 'gridheight': 454}">
-            <ul>
-                <li data-transition="fade">
-                    <img src="<?= IMAGES; ?>slides/slide_1_1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" />
-
-                    <a href="category.html" class="tp-caption bg-primary color-white"
-                       data-x="center"
-                       data-y="132"
-                       data-frames='[{"delay":500,"speed":500,"frame":"0","from":"y:[100%];opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                       data-paddingtop="5"
-                       data-paddingright="18"
-                       data-paddingbottom="5"
-                       data-paddingleft="18"
-                       style="font-size: 11px; line-height: 22px;">GRAPHICS </a>
-
-                    <a href="post.html" class="tp-caption color-white"
-                       data-x="center"
-                       data-y="185"
-                       data-width="450"
-                       data-frames='[{"delay":900,"split":"lines","splitdelay":0.5,"speed":700,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(238, 21, 17, 1.00);br:0px 0px 0px 0px;"}]'
-                       data-textAlign="center"
-                       style="white-space: normal; font-size: 26px; line-height: 38px; font-weight: 700;">Hipster Girl in Knitted Sweater Vulputate In Velit</a>
-
-                    <div class="tp-caption"
-                         data-x="center"
-                         data-y="276"
-                         data-width="50"
-                         data-height="1"
-                         data-frames='[{"delay":2100,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         style="background-color:rgba(255, 255, 255, 1.00);"> </div>
-
-                    <div class="tp-caption color-white"
-                         data-x="center" data-hoffset="-145"
-                         data-y="302"
-                         data-frames='[{"delay":2400,"speed":700,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="right"
-                         style="font-size: 13px; line-height: 22px;">Posted on : <span class="color-primary">May 9, 2016</span> </div>
-
-                    <div class="tp-caption color-white"
-                         data-x="center"
-                         data-hoffset="34"
-                         data-y="302"
-                         data-frames='[{"delay":2650,"speed":700,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="center"
-                         style="font-size: 13px; line-height: 22px;">Posted by : <span class="color-primary">Admin</span> </div>
-
-                    <div class="tp-caption color-white"
-                         data-x="center"
-                         data-hoffset="177"
-                         data-y="302"
-                         data-frames='[{"delay":2900,"speed":700,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="left"
-                         style="font-size: 13px; line-height: 22px;">2 Comments </div>
-                </li>
-
-                <li data-transition="fade">
-                    <img src="<?= IMAGES; ?>slides/slide_1_2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" />
-
-                    <a href="category.html" class="tp-caption bg-primary color-white"
-                       data-x="center"
-                       data-y="132"
-                       data-frames='[{"delay":500,"speed":500,"frame":"0","from":"y:[100%];opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                       data-paddingtop="5"
-                       data-paddingright="18"
-                       data-paddingbottom="5"
-                       data-paddingleft="18"
-                       style="font-size: 11px; line-height: 22px;">GRAPHICS</a>
-
-                    <a href="post.html" class="tp-caption color-white"
-                       data-x="center"
-                       data-y="185"
-                       data-width="450"
-                       data-frames='[{"delay":900,"split":"lines","splitdelay":0.5,"speed":700,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(238, 21, 17, 1.00);br:0px 0px 0px 0px;"}]'
-                       data-textAlign="center"
-                       style="white-space: normal; font-size: 26px; line-height: 38px; font-weight: 700;">Ulysses A Classic For A Reason Knitted Snood Covered</a>
-
-                    <div class="tp-caption"
-                         data-x="center"
-                         data-y="276"
-                         data-width="50"
-                         data-height="1"
-                         data-frames='[{"delay":2100,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                         style="background-color:rgba(255, 255, 255, 1.00);"> </div>
-
-                    <div class="tp-caption color-white"
-                         data-x="center" data-hoffset="-145"
-                         data-y="302"
-                         data-frames='[{"delay":2400,"speed":700,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="right"
-                         style="font-size: 13px; line-height: 22px;">Posted on : <span class="color-primary">May 9, 2016</span> </div>
-
-                    <div class="tp-caption color-white"
-                         data-x="center"
-                         data-hoffset="34"
-                         data-y="302"
-                         data-frames='[{"delay":2650,"speed":700,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="center"
-                         style="font-size: 13px; line-height: 22px;">Posted by : <span class="color-primary">Admin</span> </div>
-
-                    <div class="tp-caption color-white"
-                         data-x="center"
-                         data-hoffset="177"
-                         data-y="302"
-                         data-frames='[{"delay":2900,"speed":700,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                         data-textAlign="left"
-                         style="font-size: 13px; line-height: 22px;">2 Comments </div>
-                </li>
-            </ul>
+<div class="page-header parallax" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="images/parallax_bg.jpg">
+    <div class="container author-container">
+        <div class="post-author post-author-center">
+            <div class="author-content">
+                <div class="author-about">About Author</div>
+                <h4 class="author-name">Ashley Fletcher<span class="post-count">112 Posts</span></h4>
+                <div class="author-metas">
+                    <div>Tel: <span>(+96) 800-700-6200</span></div>
+                    <div>Email: <span>support@themextic.com</span></div>
+                </div>
+                <div class="author-share social-links">
+                    <span>Follow Me:</span>
+                    <span class="socials">
+                        <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a> |
+                        <a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a> |
+                        <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a> |
+                        <a href="#" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                    </span>
+                </div>
+            </div>
+            <div class="author-image">
+                <div class="image-wrap">
+                    <img src="images/author/author_05.png" alt="Author" class="img-responsive text-center" />
+                </div>
+            </div>
+            <div class="author-content">
+                <p>Excepteur sint occaecat cupidatat non proident sunt in cul deserunt mollitest dolor sit amet, con sectetur adipi sed do eiusmod temp labore. Ut enim ad minim veniam, quis nostrud exercitaton ullamco laboris nisi ut aliquip ex ea commodo consequat in reprehenderit in voluptate.</p>
+            </div>
         </div>
     </div>
 </div>
 <div class="main main-right-sidebar">
-    <div class="category-banners container-full">
-        <div class="row">
-            <div class="category-banner col-sm-4">
-                <img src="<?= IMAGES; ?>category/category_01.jpg" alt="" />
-                <div class="category-tooltip">
-                    <div class="inner">
-                        <div class="category-meta">
-                            <div class="categories">
-                                <a href="#">Graphics</a> - <a href="#">Life Style</a>
-                            </div>
-                            <h5>Wireless Enterprise Solutions</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="category-banner col-sm-4">
-                <img src="<?= IMAGES; ?>category/category_02.jpg" alt="" />
-                <div class="category-tooltip">
-                    <div class="inner">
-                        <div class="category-meta">
-                            <div class="categories">
-                                <a href="#">Graphics</a> - <a href="#">Life Style</a>
-                            </div>
-                            <h5>Competitor to WhatsApp</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="category-banner col-sm-4">
-                <img src="<?= IMAGES; ?>category/category_03.jpg" alt="" />
-                <div class="category-tooltip">
-                    <div class="inner">
-                        <div class="category-meta">
-                            <div class="categories">
-                                <a href="#">Graphics</a> - <a href="#">Life Style</a>
-                            </div>
-                            <h5>Necessary to Secure Mobile</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <div class="row">
             <div class="content col-md-9">
-                <div class="content-inner posts-wrap">
-                    <div class="posts posts-grid">
-                        <div class="row" data-plugin-masonry>
-                            <div class="post-wrap col-sm-6">
-                                <div class="post">
+                <div class="content-inner posts-wrap posts-medium-wrap">
+                    <div class="posts">
+                        <div class="post post-medium">
+                            <div class="row">
+                                <div class="col-sm-6">
                                     <div class="post-image post-image-with-bg">
                                         <div class="post-image-wrap">
-                                            <img src="<?= IMAGES; ?>post/post_grid_01.jpg" alt="" />
+                                            <img src="images/post/post_grid_01.jpg" alt="" />
                                             <div class="post-icons">
                                                 <a href="#" class="comments-link">
                                                     <i class="fa fa-comment"></i>
@@ -177,6 +52,8 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="col-sm-6">
                                     <div class="post-content">
                                         <div class="post-categories">
                                             <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
@@ -192,61 +69,25 @@
                                             <div class="date"><span class="day">12</span> september / 2016</div>
                                             <div class="author">
                                                 <div class="divider"></div>
-                                                <img src="<?= IMAGES; ?>author/author_06.png" alt="" />
+                                                <img src="images/author/author_06.png" alt="" />
                                                 <span>Posted by : <a href="author.html">Admin</a></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="post-wrap col-sm-6">
-                                <div class="post">
-                                    <div class="post-image post-image-with-bg">
-                                        <div class="post-image-wrap">
-                                            <img src="<?= IMAGES; ?>post/post_grid_02.jpg" alt="" />
-                                            <div class="post-icons">
-                                                <a href="#" class="comments-link">
-                                                    <i class="fa fa-comment"></i>
-                                                </a>
-                                                <a href="#" class="likes-link">
-                                                    <span class="count">501</span>
-                                                    <i class="fa fa-heart"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="post-content">
-                                        <div class="post-categories">
-                                            <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
-                                        </div>
-                                        <h2 class="post-title">
-                                            <a href="post.html">Outdoor Sports Clothing & Shoes</a>
-                                        </h2>
-                                        <div class="entry-content">
-                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culdeserunt mollit anim id est dolor sit amet, consectetur adipised do eiusmod tempor incididunt ut labore...</p>
-                                            <a href="post.html" class="readmore">Continue Reading <i class="fa fa-caret-right"></i></a>
-                                        </div>
-                                        <div class="post-metas">
-                                            <div class="date"><span class="day">12</span> september / 2016</div>
-                                            <div class="author">
-                                                <div class="divider"></div>
-                                                <img src="<?= IMAGES; ?>author/author_06.png" alt="" />
-                                                <span>Posted by : <a href="author.html">Admin</a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-wrap col-sm-6">
-                                <div class="post">
+                        </div>
+                        <div class="post post-medium">
+                            <div class="row">
+                                <div class="col-sm-6">
                                     <div class="post-image post-image-with-bg">
                                         <div class="post-image-wrap">
                                             <div class="owl-carousel owl-theme" data-plugin-options="{'items':1, 'nav':true, 'dots':false}">
                                                 <div>
-                                                    <img src="<?= IMAGES; ?>post/post_grid_03.jpg" alt="" />
+                                                    <img src="images/post/post_grid_02.jpg" alt="" />
                                                 </div>
                                                 <div>
-                                                    <img src="<?= IMAGES; ?>post/post_grid_07.jpg" alt="" />
+                                                    <img src="images/post/post_grid_07.jpg" alt="" />
                                                 </div>
                                             </div>
                                             <div class="post-icons">
@@ -260,12 +101,14 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="col-sm-6">
                                     <div class="post-content">
                                         <div class="post-categories">
                                             <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
                                         </div>
                                         <h2 class="post-title">
-                                            <a href="post-gallery.html">Wearing Stylish Hat & Clothes</a>
+                                            <a href="post-gallery.html">Outdoor Sports Clothing & Shoes</a>
                                         </h2>
                                         <div class="entry-content">
                                             <p>Excepteur sint occaecat cupidatat non proident, sunt in culdeserunt mollit anim id est dolor sit amet, consectetur adipised do eiusmod tempor incididunt ut labore...</p>
@@ -275,18 +118,20 @@
                                             <div class="date"><span class="day">12</span> september / 2016</div>
                                             <div class="author">
                                                 <div class="divider"></div>
-                                                <img src="<?= IMAGES; ?>author/author_06.png" alt="" />
+                                                <img src="images/author/author_06.png" alt="" />
                                                 <span>Posted by : <a href="author.html">Admin</a></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="post-wrap col-sm-6">
-                                <div class="post">
+                        </div>
+                        <div class="post post-medium">
+                            <div class="row">
+                                <div class="col-sm-6">
                                     <div class="post-image post-image-with-bg">
                                         <div class="post-image-wrap">
-                                            <img src="<?= IMAGES; ?>post/post_grid_04.jpg" alt="" />
+                                            <img src="images/post/post_grid_03.jpg" alt="" />
                                             <div class="post-icons">
                                                 <a href="#" class="comments-link">
                                                     <i class="fa fa-comment"></i>
@@ -298,6 +143,50 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="post-content">
+                                        <div class="post-categories">
+                                            <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
+                                        </div>
+                                        <h2 class="post-title">
+                                            <a href="post.html">Wearing Stylish Hat & Clothes</a>
+                                        </h2>
+                                        <div class="entry-content">
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culdeserunt mollit anim id est dolor sit amet, consectetur adipised do eiusmod tempor incididunt ut labore...</p>
+                                            <a href="post.html" class="readmore">Continue Reading <i class="fa fa-caret-right"></i></a>
+                                        </div>
+                                        <div class="post-metas">
+                                            <div class="date"><span class="day">12</span> september / 2016</div>
+                                            <div class="author">
+                                                <div class="divider"></div>
+                                                <img src="images/author/author_06.png" alt="" />
+                                                <span>Posted by : <a href="author.html">Admin</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post post-medium">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="post-image post-image-with-bg">
+                                        <div class="post-image-wrap">
+                                            <img src="images/post/post_grid_04.jpg" alt="" />
+                                            <div class="post-icons">
+                                                <a href="#" class="comments-link">
+                                                    <i class="fa fa-comment"></i>
+                                                </a>
+                                                <a href="#" class="likes-link">
+                                                    <span class="count">501</span>
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
                                     <div class="post-content">
                                         <div class="post-categories">
                                             <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
@@ -313,57 +202,21 @@
                                             <div class="date"><span class="day">12</span> september / 2016</div>
                                             <div class="author">
                                                 <div class="divider"></div>
-                                                <img src="<?= IMAGES; ?>author/author_06.png" alt="" />
+                                                <img src="images/author/author_06.png" alt="" />
                                                 <span>Posted by : <a href="author.html">Admin</a></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="post-wrap col-sm-6">
-                                <div class="post">
-                                    <div class="post-image post-image-with-bg">
-                                        <div class="post-image-wrap">
-                                            <img src="<?= IMAGES; ?>post/post_grid_05.jpg" alt="" />
-                                            <div class="post-icons">
-                                                <a href="#" class="comments-link">
-                                                    <i class="fa fa-comment"></i>
-                                                </a>
-                                                <a href="#" class="likes-link">
-                                                    <span class="count">501</span>
-                                                    <i class="fa fa-heart"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="post-content">
-                                        <div class="post-categories">
-                                            <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
-                                        </div>
-                                        <h2 class="post-title">
-                                            <a href="post.html">Full Lips, In Stylish Sunglasses</a>
-                                        </h2>
-                                        <div class="entry-content">
-                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culdeserunt mollit anim id est dolor sit amet, consectetur adipised do eiusmod tempor incididunt ut labore...</p>
-                                            <a href="post.html" class="readmore">Continue Reading <i class="fa fa-caret-right"></i></a>
-                                        </div>
-                                        <div class="post-metas">
-                                            <div class="date"><span class="day">12</span> september / 2016</div>
-                                            <div class="author">
-                                                <div class="divider"></div>
-                                                <img src="<?= IMAGES; ?>author/author_06.png" alt="" />
-                                                <span>Posted by : <a href="author.html">Admin</a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-wrap col-sm-6">
-                                <div class="post">
+                        </div>
+                        <div class="post post-medium">
+                            <div class="row">
+                                <div class="col-sm-6">
                                     <div class="post-image post-image-with-bg">
                                         <div class="post-image-wrap">
                                             <div class="overlay-image overlay-image-sm">
-                                                <img src="<?= IMAGES; ?>post/post_grid_06.jpg" alt="" />
+                                                <img src="images/post/post_grid_05.jpg" alt="" />
                                             </div>
                                             <div class="post-overlay">
                                                 <div class="inner">
@@ -385,12 +238,14 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="col-sm-6">
                                     <div class="post-content">
                                         <div class="post-categories">
                                             <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
                                         </div>
                                         <h2 class="post-title">
-                                            <a href="post-video.html">Woman Fashionable Clothes</a>
+                                            <a href="post-video.html">Full Lips, In Stylish Sunglasses</a>
                                         </h2>
                                         <div class="entry-content">
                                             <p>Excepteur sint occaecat cupidatat non proident, sunt in culdeserunt mollit anim id est dolor sit amet, consectetur adipised do eiusmod tempor incididunt ut labore...</p>
@@ -400,18 +255,20 @@
                                             <div class="date"><span class="day">12</span> september / 2016</div>
                                             <div class="author">
                                                 <div class="divider"></div>
-                                                <img src="<?= IMAGES; ?>author/author_06.png" alt="" />
+                                                <img src="images/author/author_06.png" alt="" />
                                                 <span>Posted by : <a href="author.html">Admin</a></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="post-wrap col-sm-6">
-                                <div class="post">
+                        </div>
+                        <div class="post post-medium">
+                            <div class="row">
+                                <div class="col-sm-6">
                                     <div class="post-image post-image-with-bg">
                                         <div class="post-image-wrap">
-                                            <img src="<?= IMAGES; ?>post/post_grid_07.jpg" alt="" />
+                                            <img src="images/post/post_grid_06.jpg" alt="" />
                                             <div class="post-icons">
                                                 <a href="#" class="comments-link">
                                                     <i class="fa fa-comment"></i>
@@ -423,6 +280,50 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="post-content">
+                                        <div class="post-categories">
+                                            <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
+                                        </div>
+                                        <h2 class="post-title">
+                                            <a href="post.html">Woman Fashionable Clothes</a>
+                                        </h2>
+                                        <div class="entry-content">
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culdeserunt mollit anim id est dolor sit amet, consectetur adipised do eiusmod tempor incididunt ut labore...</p>
+                                            <a href="post.html" class="readmore">Continue Reading <i class="fa fa-caret-right"></i></a>
+                                        </div>
+                                        <div class="post-metas">
+                                            <div class="date"><span class="day">12</span> september / 2016</div>
+                                            <div class="author">
+                                                <div class="divider"></div>
+                                                <img src="images/author/author_06.png" alt="" />
+                                                <span>Posted by : <a href="author.html">Admin</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post post-medium">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="post-image post-image-with-bg">
+                                        <div class="post-image-wrap">
+                                            <img src="images/post/post_grid_07.jpg" alt="" />
+                                            <div class="post-icons">
+                                                <a href="#" class="comments-link">
+                                                    <i class="fa fa-comment"></i>
+                                                </a>
+                                                <a href="#" class="likes-link">
+                                                    <span class="count">501</span>
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
                                     <div class="post-content">
                                         <div class="post-categories">
                                             <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
@@ -438,45 +339,7 @@
                                             <div class="date"><span class="day">12</span> september / 2016</div>
                                             <div class="author">
                                                 <div class="divider"></div>
-                                                <img src="<?= IMAGES; ?>author/author_06.png" alt="" />
-                                                <span>Posted by : <a href="author.html">Admin</a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="post-wrap col-sm-6">
-                                <div class="post">
-                                    <div class="post-image post-image-with-bg">
-                                        <div class="post-image-wrap">
-                                            <img src="<?= IMAGES; ?>post/post_grid_08.jpg" alt="" />
-                                            <div class="post-icons">
-                                                <a href="#" class="comments-link">
-                                                    <i class="fa fa-comment"></i>
-                                                </a>
-                                                <a href="#" class="likes-link">
-                                                    <span class="count">501</span>
-                                                    <i class="fa fa-heart"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="post-content">
-                                        <div class="post-categories">
-                                            <a href="category.html">Graphics</a> - <a href="category.html">Life Style</a>
-                                        </div>
-                                        <h2 class="post-title">
-                                            <a href="post.html">Fashion Collection Model Pose</a>
-                                        </h2>
-                                        <div class="entry-content">
-                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culdeserunt mollit anim id est dolor sit amet, consectetur adipised do eiusmod tempor incididunt ut labore...</p>
-                                            <a href="post.html" class="readmore">Continue Reading <i class="fa fa-caret-right"></i></a>
-                                        </div>
-                                        <div class="post-metas">
-                                            <div class="date"><span class="day">12</span> september / 2016</div>
-                                            <div class="author">
-                                                <div class="divider"></div>
-                                                <img src="<?= IMAGES; ?>author/author_06.png" alt="" />
+                                                <img src="images/author/author_06.png" alt="" />
                                                 <span>Posted by : <a href="author.html">Admin</a></span>
                                             </div>
                                         </div>
@@ -508,36 +371,6 @@
                         </form>
                     </div>
                 </div>
-                <div class="widget widget-popular-posts">
-                    <h3 class="widget-title">
-                        Popular Posts
-                        <span>Simple Personal Blogging</span>
-                    </h3>
-                    <div class="widget-content">
-                        <div class="post">
-                            <div class="post-image">
-                                <a href="single-image.html">
-                                    <img src="<?= IMAGES; ?>post/post_thumb_01.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="post-date">16 September / 2016</div>
-                            <h5 class="post-title">
-                                <a href="single-image.html">Digital Home Office</a>
-                            </h5>
-                        </div>
-                        <div class="post">
-                            <div class="post-image">
-                                <a href="single-image.html">
-                                    <img src="<?= IMAGES; ?>post/post_thumb_02.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="post-date">16 September / 2016</div>
-                            <h5 class="post-title">
-                                <a href="single-image.html">Mastering Street Photography</a>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
                 <div class="widget widget-video-posts">
                     <h3 class="widget-title">
                         Video Post
@@ -546,7 +379,7 @@
                     <div class="widget-content">
                         <div class="post">
                             <div class="post-image">
-                                <img src="<?= IMAGES; ?>post/post_thumb_03.jpg" alt="" />
+                                <img src="images/post/post_thumb_03.jpg" alt="" />
                             </div>
                             <div class="video-overlay">
                                 <div class="inner">
@@ -590,36 +423,21 @@
                         </form>
                     </div>
                 </div>
-                <div class="widget widget-tagcloud">
-                    <h3 class="widget-title">
-                        Tag Clouds
-                        <span>Simple Personal Blogging</span>
-                    </h3>
-                    <div class="widget-content">
-                        <a href="#">Life Style</a>
-                        <a href="#">Panda</a>
-                        <a href="#">Eyes</a>
-                        <a href="#">Browns</a>
-                        <a href="#">Star</a>
-                        <a href="#">Creative</a>
-                        <a href="#">Thinking</a>
-                    </div>
-                </div>
                 <div class="widget widget-instagram">
                     <h3 class="widget-title">
                         Instagram Images
                         <span>Simple Personal Blogging</span>
                     </h3>
                     <div class="widget-content">
-                        <a href="#"><img src="<?= IMAGES; ?>instagram/instagram_01.png" alt="" /></a>
-                        <a href="#"><img src="<?= IMAGES; ?>instagram/instagram_02.png" alt="" /></a>
-                        <a href="#"><img src="<?= IMAGES; ?>instagram/instagram_03.png" alt="" /></a>
-                        <a href="#"><img src="<?= IMAGES; ?>instagram/instagram_04.png" alt="" /></a>
-                        <a href="#"><img src="<?= IMAGES; ?>instagram/instagram_05.png" alt="" /></a>
-                        <a href="#"><img src="<?= IMAGES; ?>instagram/instagram_06.png" alt="" /></a>
-                        <a href="#"><img src="<?= IMAGES; ?>instagram/instagram_07.png" alt="" /></a>
-                        <a href="#"><img src="<?= IMAGES; ?>instagram/instagram_08.png" alt="" /></a>
-                        <a href="#"><img src="<?= IMAGES; ?>instagram/instagram_09.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram/instagram_01.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram/instagram_02.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram/instagram_03.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram/instagram_04.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram/instagram_05.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram/instagram_06.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram/instagram_07.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram/instagram_08.png" alt="" /></a>
+                        <a href="#"><img src="images/instagram/instagram_09.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="widget widget-author">
@@ -630,7 +448,7 @@
                     <div class="widget-content">
                         <div class="author-image-wrap">
                             <div class="author-image">
-                                <a href="author.html"><img src="<?= IMAGES; ?>author/author_04.png" alt="" /></a>
+                                <a href="author.html"><img src="images/author/author_04.png" alt="" /></a>
                             </div>
                         </div>
                         <p>Excepteur sint occaecat cupidatat non deserunt mollit anim id est dolor site sed do eiusmod tempor.</p>
